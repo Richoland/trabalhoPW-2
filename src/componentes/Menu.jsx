@@ -37,11 +37,11 @@ const Menu = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <NavLink className="dropdown-item" to="/predios">
-                    Predios
+                  <NavLink className="dropdown-item" to="/series">
+                    Séries
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/salas">
-                    Salas
+                  <NavLink className="dropdown-item" to="/reviews">
+                    Reviews
                   </NavLink>
                 </li>
               </ul>

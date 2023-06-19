@@ -51,7 +51,7 @@ const MenuPrivado = () => {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink className="dropdown-item" to="salas">
+                      <NavLink className="dropdown-item" to="reviews">
                         Reviews
                       </NavLink>
                     </li>

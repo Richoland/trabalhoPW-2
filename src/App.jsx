@@ -2,14 +2,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@popperjs/core/dist/cjs/popper.js";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Menu from "./componentes/Menu";
 import Home from "./componentes/telas/Home";
-import Sala from "./componentes/telas/sala/Sala";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./componentes/telas/login/Login";
 import MenuPublico from "./componentes/MenuPublico";
 import MenuPrivado from "./componentes/MenuPrivado";
 import Serie from "./componentes/telas/serie/Serie";
+import Review from "./componentes/telas/review/Review";
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
         <Route path="/privado" element={<MenuPrivado />}>
           <Route index element={<Home />} />
           <Route exact="true" path="series" element={<Serie />} />
-          <Route exact="true" path="salas" element={<Sala />} />
+          <Route exact="true" path="reviews" element={<Review />} />
           <Route exact="true" path="login" element={<Login />} />
         </Route>
       </Routes>

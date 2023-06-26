@@ -89,7 +89,7 @@ function Tabela() {
                   <th scope="row">{objeto.codigo}</th>
                   <td>{objeto.numero}</td>
                   <td>{objeto.descricao}</td>
-                  <td>{objeto.serie}</td>
+                  <td>{objeto.nomeserie}</td>
                 </tr>
               ))}
             </tbody>

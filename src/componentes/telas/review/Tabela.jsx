@@ -87,7 +87,7 @@ function Tabela() {
                     </button>
                   </td>
                   <th scope="row">{objeto.codigo}</th>
-                  <td>{objeto.numero}</td>
+                  <td>{objeto.nota}</td>
                   <td>{objeto.descricao}</td>
                   <td>{objeto.nomeserie}</td>
                 </tr>

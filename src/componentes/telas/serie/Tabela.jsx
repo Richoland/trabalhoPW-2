@@ -47,6 +47,7 @@ function Tabela() {
                 </th>
                 <th scope="col">Código</th>
                 <th scope="col">Nome</th>
+                <th scope="col">Descrição</th>
                 <th scope="col">Episódio</th>
                 <th scope="col">Temporada</th>
               </tr>
@@ -78,6 +79,7 @@ function Tabela() {
                   </td>
                   <th scope="row">{objeto.codigo}</th>
                   <td>{objeto.nome}</td>
+                  <td>{objeto.descricao}</td>
                   <td>{objeto.episodio}</td>
                   <td>{objeto.temporada}</td>
                 </tr>

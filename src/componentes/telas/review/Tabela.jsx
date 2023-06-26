@@ -30,7 +30,7 @@ function Tabela() {
             codigo: 0,
             nota: "",
             descricao: "",
-            nome: "",
+            serie: "",
           });
         }}
       >
@@ -89,7 +89,7 @@ function Tabela() {
                   <th scope="row">{objeto.codigo}</th>
                   <td>{objeto.numero}</td>
                   <td>{objeto.descricao}</td>
-                  <td>{objeto.review}</td>
+                  <td>{objeto.serie}</td>
                 </tr>
               ))}
             </tbody>
